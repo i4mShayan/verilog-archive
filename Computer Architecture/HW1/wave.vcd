@@ -1,0 +1,224 @@
+$date
+	Wed Nov  2 15:36:50 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_tb $end
+$var wire 1 ! c_out $end
+$var wire 32 " alu_result [31:0] $end
+$var reg 32 # input1 [31:0] $end
+$var reg 32 $ input2 [31:0] $end
+$var reg 4 % opcode [3:0] $end
+$scope module alu_instance $end
+$var wire 32 & input1 [31:0] $end
+$var wire 32 ' input2 [31:0] $end
+$var wire 4 ( sel [3:0] $end
+$var wire 32 ) sub_result [31:0] $end
+$var wire 1 * sub_cout $end
+$var wire 32 + add_result [31:0] $end
+$var wire 1 , add_cout $end
+$var reg 1 ! alu_cout $end
+$var reg 32 - alu_result [31:0] $end
+$scope module cla_add $end
+$var wire 32 . input1 [31:0] $end
+$var wire 32 / input2 [31:0] $end
+$var wire 32 0 result [31:0] $end
+$var wire 32 1 w_sum [31:0] $end
+$var wire 32 2 w_propagate [31:0] $end
+$var wire 32 3 w_generate [31:0] $end
+$var wire 33 4 w_carry [32:0] $end
+$var wire 1 , c_out $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk1[6] $end
+$upscope $end
+$scope begin genblk1[7] $end
+$upscope $end
+$scope begin genblk1[8] $end
+$upscope $end
+$scope begin genblk1[9] $end
+$upscope $end
+$scope begin genblk1[10] $end
+$upscope $end
+$scope begin genblk1[11] $end
+$upscope $end
+$scope begin genblk1[12] $end
+$upscope $end
+$scope begin genblk1[13] $end
+$upscope $end
+$scope begin genblk1[14] $end
+$upscope $end
+$scope begin genblk1[15] $end
+$upscope $end
+$scope begin genblk1[16] $end
+$upscope $end
+$scope begin genblk1[17] $end
+$upscope $end
+$scope begin genblk1[18] $end
+$upscope $end
+$scope begin genblk1[19] $end
+$upscope $end
+$scope begin genblk1[20] $end
+$upscope $end
+$scope begin genblk1[21] $end
+$upscope $end
+$scope begin genblk1[22] $end
+$upscope $end
+$scope begin genblk1[23] $end
+$upscope $end
+$scope begin genblk1[24] $end
+$upscope $end
+$scope begin genblk1[25] $end
+$upscope $end
+$scope begin genblk1[26] $end
+$upscope $end
+$scope begin genblk1[27] $end
+$upscope $end
+$scope begin genblk1[28] $end
+$upscope $end
+$scope begin genblk1[29] $end
+$upscope $end
+$scope begin genblk1[30] $end
+$upscope $end
+$scope begin genblk1[31] $end
+$upscope $end
+$upscope $end
+$scope module cla_sub $end
+$var wire 32 5 input1 [31:0] $end
+$var wire 32 6 input2 [31:0] $end
+$var wire 32 7 result [31:0] $end
+$var wire 32 8 w_sum [31:0] $end
+$var wire 32 9 w_propagate [31:0] $end
+$var wire 32 : w_generate [31:0] $end
+$var wire 33 ; w_carry [32:0] $end
+$var wire 1 * c_out $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk1[6] $end
+$upscope $end
+$scope begin genblk1[7] $end
+$upscope $end
+$scope begin genblk1[8] $end
+$upscope $end
+$scope begin genblk1[9] $end
+$upscope $end
+$scope begin genblk1[10] $end
+$upscope $end
+$scope begin genblk1[11] $end
+$upscope $end
+$scope begin genblk1[12] $end
+$upscope $end
+$scope begin genblk1[13] $end
+$upscope $end
+$scope begin genblk1[14] $end
+$upscope $end
+$scope begin genblk1[15] $end
+$upscope $end
+$scope begin genblk1[16] $end
+$upscope $end
+$scope begin genblk1[17] $end
+$upscope $end
+$scope begin genblk1[18] $end
+$upscope $end
+$scope begin genblk1[19] $end
+$upscope $end
+$scope begin genblk1[20] $end
+$upscope $end
+$scope begin genblk1[21] $end
+$upscope $end
+$scope begin genblk1[22] $end
+$upscope $end
+$scope begin genblk1[23] $end
+$upscope $end
+$scope begin genblk1[24] $end
+$upscope $end
+$scope begin genblk1[25] $end
+$upscope $end
+$scope begin genblk1[26] $end
+$upscope $end
+$scope begin genblk1[27] $end
+$upscope $end
+$scope begin genblk1[28] $end
+$upscope $end
+$scope begin genblk1[29] $end
+$upscope $end
+$scope begin genblk1[30] $end
+$upscope $end
+$scope begin genblk1[31] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b111111111111111111111111111101000 ;
+b10100 :
+b11111111111111111111111111100011 9
+b1011 8
+b1011 7
+b11111111111111111111111111110110 6
+b10101 5
+b0 4
+b0 3
+b11111 2
+b11111 1
+b11111 0
+b1010 /
+b10101 .
+b11111 -
+0,
+b11111 +
+1*
+b1011 )
+b1 (
+b1010 '
+b10101 &
+b1 %
+b1010 $
+b10101 #
+b11111 "
+0!
+$end
+#10
+1!
+b1011 "
+b1011 -
+b11 %
+b11 (
+#20
+0!
+b11111 "
+b11111 -
+b1000 %
+b1000 (
+#30
+b11111111111111111111111111101010 "
+b11111111111111111111111111101010 -
+b1101 %
+b1101 (
+#40
