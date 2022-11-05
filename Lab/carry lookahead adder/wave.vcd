@@ -1,0 +1,95 @@
+$date
+	Sat Nov  5 19:47:17 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module cl_adder_tb $end
+$var wire 16 ! result [15:0] $end
+$var wire 1 " c_out $end
+$var reg 16 # add1 [15:0] $end
+$var reg 16 $ add2 [15:0] $end
+$var reg 1 % c_in $end
+$scope module cl_adder_instance $end
+$var wire 1 % c_in $end
+$var wire 16 & input1 [15:0] $end
+$var wire 16 ' input2 [15:0] $end
+$var wire 16 ( result [15:0] $end
+$var wire 16 ) w_sum [15:0] $end
+$var wire 16 * w_propagate [15:0] $end
+$var wire 16 + w_generate [15:0] $end
+$var wire 17 , w_carry [16:0] $end
+$var wire 1 " c_out $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk1[6] $end
+$upscope $end
+$scope begin genblk1[7] $end
+$upscope $end
+$scope begin genblk1[8] $end
+$upscope $end
+$scope begin genblk1[9] $end
+$upscope $end
+$scope begin genblk1[10] $end
+$upscope $end
+$scope begin genblk1[11] $end
+$upscope $end
+$scope begin genblk1[12] $end
+$upscope $end
+$scope begin genblk1[13] $end
+$upscope $end
+$scope begin genblk1[14] $end
+$upscope $end
+$scope begin genblk1[15] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+b0 +
+b1111111111111111 *
+b1111111111111111 )
+b1111111111111111 (
+b11111111 '
+b1111111100000000 &
+0%
+b11111111 $
+b1111111100000000 #
+0"
+b1111111111111111 !
+$end
+#50
+1"
+b0 !
+b0 (
+b0 )
+b11111111111111111 ,
+1%
+#100
+0"
+b11110011111 ,
+b10010010011 !
+b10010010011 (
+b10010010011 )
+b11000011 +
+b1100001100 *
+b11001111 $
+b11001111 '
+b1111000011 #
+b1111000011 &
+#150

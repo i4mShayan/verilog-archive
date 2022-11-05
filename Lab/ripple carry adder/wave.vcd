@@ -1,0 +1,368 @@
+$date
+	Sat Nov  5 20:42:34 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module rc_adder_tb $end
+$var wire 16 ! result [15:0] $end
+$var wire 1 " c_out $end
+$var reg 16 # add1 [15:0] $end
+$var reg 16 $ add2 [15:0] $end
+$var reg 1 % c_in $end
+$scope module rc_adder_instance $end
+$var wire 1 % c_in $end
+$var wire 16 & input1 [15:0] $end
+$var wire 16 ' input2 [15:0] $end
+$var wire 16 ( result [15:0] $end
+$var wire 16 ) w_sum [15:0] $end
+$var wire 17 * w_carry [16:0] $end
+$var wire 1 " c_out $end
+$scope begin genblk1[0] $end
+$scope module full_adder_inst $end
+$var wire 1 + a $end
+$var wire 1 , b $end
+$var wire 1 - c_in $end
+$var wire 1 . c_out $end
+$var wire 1 / out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$scope module full_adder_inst $end
+$var wire 1 0 a $end
+$var wire 1 1 b $end
+$var wire 1 2 c_in $end
+$var wire 1 3 c_out $end
+$var wire 1 4 out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$scope module full_adder_inst $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 7 c_in $end
+$var wire 1 8 c_out $end
+$var wire 1 9 out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$scope module full_adder_inst $end
+$var wire 1 : a $end
+$var wire 1 ; b $end
+$var wire 1 < c_in $end
+$var wire 1 = c_out $end
+$var wire 1 > out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$scope module full_adder_inst $end
+$var wire 1 ? a $end
+$var wire 1 @ b $end
+$var wire 1 A c_in $end
+$var wire 1 B c_out $end
+$var wire 1 C out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[5] $end
+$scope module full_adder_inst $end
+$var wire 1 D a $end
+$var wire 1 E b $end
+$var wire 1 F c_in $end
+$var wire 1 G c_out $end
+$var wire 1 H out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[6] $end
+$scope module full_adder_inst $end
+$var wire 1 I a $end
+$var wire 1 J b $end
+$var wire 1 K c_in $end
+$var wire 1 L c_out $end
+$var wire 1 M out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[7] $end
+$scope module full_adder_inst $end
+$var wire 1 N a $end
+$var wire 1 O b $end
+$var wire 1 P c_in $end
+$var wire 1 Q c_out $end
+$var wire 1 R out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[8] $end
+$scope module full_adder_inst $end
+$var wire 1 S a $end
+$var wire 1 T b $end
+$var wire 1 U c_in $end
+$var wire 1 V c_out $end
+$var wire 1 W out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[9] $end
+$scope module full_adder_inst $end
+$var wire 1 X a $end
+$var wire 1 Y b $end
+$var wire 1 Z c_in $end
+$var wire 1 [ c_out $end
+$var wire 1 \ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[10] $end
+$scope module full_adder_inst $end
+$var wire 1 ] a $end
+$var wire 1 ^ b $end
+$var wire 1 _ c_in $end
+$var wire 1 ` c_out $end
+$var wire 1 a out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[11] $end
+$scope module full_adder_inst $end
+$var wire 1 b a $end
+$var wire 1 c b $end
+$var wire 1 d c_in $end
+$var wire 1 e c_out $end
+$var wire 1 f out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[12] $end
+$scope module full_adder_inst $end
+$var wire 1 g a $end
+$var wire 1 h b $end
+$var wire 1 i c_in $end
+$var wire 1 j c_out $end
+$var wire 1 k out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[13] $end
+$scope module full_adder_inst $end
+$var wire 1 l a $end
+$var wire 1 m b $end
+$var wire 1 n c_in $end
+$var wire 1 o c_out $end
+$var wire 1 p out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[14] $end
+$scope module full_adder_inst $end
+$var wire 1 q a $end
+$var wire 1 r b $end
+$var wire 1 s c_in $end
+$var wire 1 t c_out $end
+$var wire 1 u out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[15] $end
+$scope module full_adder_inst $end
+$var wire 1 v a $end
+$var wire 1 w b $end
+$var wire 1 x c_in $end
+$var wire 1 y c_out $end
+$var wire 1 z out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1z
+0y
+0x
+0w
+1v
+1u
+0t
+0s
+0r
+1q
+1p
+0o
+0n
+0m
+1l
+1k
+0j
+0i
+0h
+1g
+1f
+0e
+0d
+0c
+1b
+1a
+0`
+0_
+0^
+1]
+1\
+0[
+0Z
+0Y
+1X
+1W
+0V
+0U
+0T
+1S
+1R
+0Q
+0P
+1O
+0N
+1M
+0L
+0K
+1J
+0I
+1H
+0G
+0F
+1E
+0D
+1C
+0B
+0A
+1@
+0?
+1>
+0=
+0<
+1;
+0:
+19
+08
+07
+16
+05
+14
+03
+02
+11
+00
+1/
+0.
+0-
+1,
+0+
+b0 *
+b1111111111111111 )
+b1111111111111111 (
+b11111111 '
+b1111111100000000 &
+0%
+b11111111 $
+b1111111100000000 #
+0"
+b1111111111111111 !
+$end
+#50
+1"
+1y
+0z
+1x
+1t
+0u
+1s
+1o
+0p
+1n
+1j
+0k
+1i
+1e
+0f
+1d
+1`
+0a
+1_
+1[
+0\
+1Z
+1V
+0W
+1U
+1Q
+0R
+1P
+1L
+0M
+1K
+1G
+0H
+1F
+1B
+0C
+1A
+1=
+0>
+1<
+18
+09
+17
+13
+04
+12
+1.
+b0 !
+b0 (
+b0 )
+0/
+1-
+b11111111111111111 *
+1%
+#100
+0F
+0K
+0d
+0i
+0n
+0s
+0x
+0"
+0B
+0G
+0`
+0e
+0j
+0o
+0t
+b11110011111 *
+0y
+1C
+0H
+1/
+14
+0M
+1R
+1a
+0f
+0k
+0p
+0u
+b10010010011 !
+b10010010011 (
+b10010010011 )
+0z
+0@
+0E
+1+
+10
+1I
+1N
+0]
+0b
+0g
+0l
+0q
+0v
+b11001111 $
+b11001111 '
+b1111000011 #
+b1111000011 &
+#150
