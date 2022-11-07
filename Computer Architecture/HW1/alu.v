@@ -17,24 +17,21 @@ module alu
 
     always @(*) begin
         case (sel)
-            1: alu_result <= add_result;
-            3: alu_result <= sub_result;
-            4: alu_result <= input1 & input2;
-            8: alu_result <= input1 | input2;
-            10: alu_result <= input1 < input2;
-            13: alu_result <= ~input1;
-            15: alu_result <= ~(input1 | input2);
+            1: alu_result = add_result;
+            3: alu_result = sub_result;
+            4: alu_result = input1 & input2;
+            8: alu_result = input1 | input2;
+            10: alu_result = input1 < input2;
+            13: alu_result = ~input1;
+            15: alu_result = ~(input1 | input2);
         endcase
 
         case (sel)
-            1: alu_cout <= add_cout;
-            3: alu_cout <= sub_cout;
-            default: alu_cout <= 0;
+            1: alu_cout = add_cout;
+            3: alu_cout = sub_cout;
+            default: alu_cout = 0;
         endcase
-
-        if(alu_result == 0)
-            alu_result = 32'hzzzzzzzz;
-        else if (alu_result < 0)
+        if (alu_result[SIZE-1]==1)
             alu_result = -alu_result;
 
     end

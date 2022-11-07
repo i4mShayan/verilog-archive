@@ -1,7 +1,7 @@
 `include "rom1.v"
 
 module rom6_tb();
-    parameter SIZE=6;
+    parameter SIZE=32;
 
     reg [4:0] sel;
     wire [SIZE-1:0] rom_out;

@@ -7,7 +7,7 @@ module rom6
     
     always @(sel) begin
     case (sel)
-        0: out = 32'h97243000;
+        0: out = 32'h97245000;
         1: out = 32'h98243000;
         2: out = 32'h99243000;
         3: out = 32'h00243000;
