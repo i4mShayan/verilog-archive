@@ -1,12 +1,12 @@
 # verilog-archive
 ## How to run?
 ### Before running
-Add this code at the beginning of initial of test bench:
+Add this code at the beginning of test bench initial block:
 ``` verilog
   $dumpfile("wave.vcd");
   $dumpvars(0, your_tb);
 ```
-also add this at the end of initial of test bench if you are using clock:
+also this if you have clock:
 ``` verilog
   $finish;
 ```
