@@ -1,5 +1,5 @@
 # verilog-archive
-## How to run?
+## How to run using Iverilog?
 ### First Step
 Add this code at the beginning of test bench initial block:
 ``` verilog
