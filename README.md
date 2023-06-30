@@ -1,6 +1,6 @@
 # verilog-archive
 ## How to run?
-### Before running
+### First Step
 Add this code at the beginning of test bench initial block:
 ``` verilog
   $dumpfile("wave.vcd");
@@ -14,7 +14,7 @@ also this if you have clock:
 ``` verilog
   iverilog code.v code_tb.v
 ```
-### How to get wave?
+### How to get the wave?
 ``` verilog
   vvp a.out
 ```
